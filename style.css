@@ -1,0 +1,59 @@
+.container  {
+    width: 100%;
+}
+
+/* .out {
+    display: flex;
+    justify-content:space-between;
+} */
+
+.first, .second, .third, .fourth, .last {
+    display: flex;
+    justify-content:flex-start;
+}
+
+.second {
+    padding-left: 2%;
+}
+
+.third {
+    padding-left: 4%;
+}
+
+.fourth {
+    padding-left: 6%;
+}
+
+.last {
+    justify-content:center;
+}
+
+.keyboard {
+    width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    margin: 15px;
+    border-radius: 6px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.keyboard[data="space"] {
+    width: 112px;
+}
+
+.keyboard[data="enter"] {
+    width: 112px;
+}
+
+.keyboard[data="Shift"] {
+    width: 112px;
+}
+
+.active {
+    background: orange;
+}
+
+.hide {
+    display: none;
+}
